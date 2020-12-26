@@ -1,0 +1,23 @@
+<section>
+
+    <body>
+        <div class="form-box">
+
+            <h1>Login</h1>
+
+            <form action="/login" method="POST">
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="loginEmail" name="email" size='38'>
+                    <label for="email">Password</label><br>
+                    <input type="password" id="loginPassword" name="password" size='38'>
+                </div><br>
+
+                <a class="btn" href="/register">Register</a>
+                <button class="btn" type="submit" id="loginBtn">Login</button>
+            </form>
+        </div>
+
+        <h3>{{msg}}</h3>
+    </body>
+</section>
